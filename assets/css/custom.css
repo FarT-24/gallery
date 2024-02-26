@@ -1,0 +1,12 @@
+.masterhead {
+    background: url("/assets/bg/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.navbar-brand {
+    font-size: 40px;
+}
