@@ -55,7 +55,7 @@ include 'config/koneksi.php';
                                     $fotoid = $data['fotoid'];
                                     $ceksuka = mysqli_query($koneksi, "SELECT * FROM likefoto WHERE fotoid='$fotoid'");
                                     if (mysqli_num_rows($ceksuka) == 1) { ?>
-                                        <a href="config/proses_like.php?fotoid=<?php echo $data['fotoid'] ?>" type="submit" name="batalsuka"><i class="fa fa-heart"></i></a>
+                                        <a href="config/proses_like.php?fotoid=<?php echo $data['fotoid'] ?>" type="submit" name="batalsuka"><i class="fa-regular fa-heart"></i></a>
                                     <?php } else { ?>
                                         <a href="config/proses_like.php?fotoid=<?php echo $data['fotoid'] ?>" type="submit" name="suka"><i class="fa-regular fa-heart"></i></a>
                                     <?php }
