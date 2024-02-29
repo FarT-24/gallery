@@ -34,7 +34,7 @@ include 'config/koneksi.php';
 
         <!---- Isi Halaman ---->
         <div class="container p-1 bg-hero rounded">
-            <div class="py-5 text-white">
+            <div class="py-2 text-white">
                 <p class="fs-3 fw-bold">Gallery Photo</p>
                 <p class="fs-5 col-md-10">Simpan dan bagikan momen indahmu disini😊</p>
             </div>
