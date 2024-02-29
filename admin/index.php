@@ -63,7 +63,7 @@ if ($_SESSION['status'] != 'login') {
                                 <div class="card-footer text-center">
                                     <?php
                                     $fotoid = $data['fotoid'];
-                                    $ceksuka = mysqli_query($koneksi, "SELECT * FROM likefoto WHERE fotoid='$fotoid'");
+                                    $ceksuka = mysqli_query($koneksi, "SELECT * FROM likefoto WHERE fotoid='$fotoid' AND userid='$userid'");
                                     if (mysqli_num_rows($ceksuka) == 1) { ?>
                                         <a href="../config/proses_like.php?fotoid=<?php echo $data['fotoid'] ?>" type="submit" name="batalsuka"><i class="fa fa-heart"></i></a>
                                     <?php } else { ?>
