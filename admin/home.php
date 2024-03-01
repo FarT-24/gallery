@@ -37,7 +37,7 @@ if ($_SESSION['status'] != 'login') {
                         <a href="profil.php" class="nav-link right fw-bold fs-5 text-white"><?= ucwords($_SESSION['username']) ?></a>
                     </div>
 
-                    <a href="../config/proses_logout.php" class="btn btn-outline-danger m-1">Keluar</a>
+                    <a href="../config/proses_logout.php" class="btn btn-outline-danger m-2">Keluar</a>
                 </div>
             </div>
         </nav>
