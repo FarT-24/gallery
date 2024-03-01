@@ -43,7 +43,7 @@ if ($_SESSION['status'] != 'login') {
         </nav>
 
         <div class="container p-1 bg-hero rounded">
-            <div class="py-2 text-white">
+            <div class="py-1 text-white">
                 <p class="fs-3 fw-bold">Gallery Photo</p>
                 <p class="fs-5 col-md-10">Simpan dan bagikan momen indahmu disini😊</p>
             </div>
@@ -53,7 +53,7 @@ if ($_SESSION['status'] != 'login') {
             <?php
             $album = mysqli_query($koneksi, "SELECT * FROM album WHERE userid='$userid'");
             while ($row = mysqli_fetch_array($album)) { ?>
-                <a href="home.php?albumid=<?php echo $row['albumid'] ?>" class="btn btn-outline-primary"><?php echo $row['nama_album'] ?></a>
+                <a href="home.php?albumid=<?php echo $row['albumid'] ?>" class="btn btn-primary"><?php echo $row['nama_album'] ?></a>
             <?php } ?>
 
             <div class="row">
