@@ -45,7 +45,7 @@ if ($_SESSION['status'] != 'login') {
         <!---- Isi Halaman ---->
         <div class="container p-1 bg-hero rounded">
             <div class="py-1 text-white">
-                <p class="fs-2 fw-bold">Gallery Photo</p>
+                <p class="fs-3 fw-bold">Gallery Photo</p>
                 <p class="fs-5 col-md-10">Simpan dan bagikan momen indahmu disini😊</p>
             </div>
         </div>
